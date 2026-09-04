@@ -47,7 +47,7 @@ button{font:inherit;cursor:pointer}
 }
 .header.scrolled{border-color:var(--linea);box-shadow:var(--sombra-sm)}
 .brand{display:flex;align-items:center;gap:12px;margin-right:auto}
-.brand-logo{width:44px;height:44px;flex-shrink:0}
+.brand-logo{width:46px;height:42px;flex-shrink:0;object-fit:contain}
 .brand-text{display:flex;flex-direction:column;line-height:1.05}
 .brand-name{font-family:'Fraunces',serif;font-size:20px;font-weight:600;color:var(--verde-hogar);letter-spacing:-.01em}
 .brand-sub{font-size:9.5px;text-transform:uppercase;letter-spacing:.24em;color:var(--gris);font-weight:500}
@@ -217,7 +217,7 @@ td.k{font-weight:600;width:36%;color:var(--tinta)}
 /* ---------- Identidad de marca ---------- */
 .brandcard{background:var(--blanco);border:1px solid var(--linea);border-radius:var(--r-lg);padding:44px}
 .logo-display{display:flex;align-items:center;gap:28px;flex-wrap:wrap;padding-bottom:32px;margin-bottom:32px;border-bottom:1px solid var(--linea)}
-.logo-display img{width:120px;height:120px}
+.logo-display img{width:130px;height:118px;object-fit:contain}
 .logo-lockup{display:flex;flex-direction:column}
 .logo-lockup .n{font-family:'Fraunces',serif;font-size:34px;color:var(--verde-hogar);line-height:1}
 .logo-lockup .s{font-size:11.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--gris);margin-top:6px}
@@ -265,7 +265,7 @@ td.k{font-weight:600;width:36%;color:var(--tinta)}
 footer{background:var(--verde-hogar);color:#B9CBBB;padding:70px 0 34px;font-size:13.5px}
 .f-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:44px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.13)}
 .f-brand{display:flex;align-items:center;gap:12px;margin-bottom:16px}
-.f-brand img{width:46px;height:46px}
+.f-brand img{width:48px;height:44px;object-fit:contain}
 .f-brand .n{font-family:'Fraunces',serif;font-size:20px;color:#fff}
 footer h5{font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:#fff;margin-bottom:16px;font-family:'Inter',sans-serif;font-weight:600}
 footer li{margin-bottom:9px}
