@@ -86,7 +86,7 @@ button{font:inherit;cursor:pointer}
 .ticker{background:var(--sol);color:var(--bosque);padding:15px 0;overflow:hidden;white-space:nowrap}
 .tk-track{display:inline-flex;animation:slide 26s linear infinite}
 .tk-track span{display:inline-flex;align-items:center;gap:20px;padding-right:20px;font-size:14px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
-.tk-track span:after{content:"✳";font-size:15px}
+.tk-track span:after{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:currentColor;opacity:.5}
 @keyframes slide{to{transform:translateX(-50%)}}
 
 /* ---------- TIPOS DE SECCIÓN ---------- */
