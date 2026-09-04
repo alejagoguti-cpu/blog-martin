@@ -5,9 +5,9 @@
   <rect x="440" y="90" width="290" height="330" rx="10" fill="#D6F2E4" stroke="#0F2E24" stroke-width="10"/>
   <line x1="585" y1="90" x2="585" y2="420" stroke="#0F2E24" stroke-width="8"/>
   <line x1="440" y1="255" x2="730" y2="255" stroke="#0F2E24" stroke-width="8"/>
-  <circle cx="670" cy="160" r="34" fill="#FFC94D"/>
+  <circle cx="670" cy="160" r="34" fill="#E8A33D"/>
   <!-- rayos de luz -->
-  <g fill="#FFC94D" opacity="0.28">
+  <g fill="#E8A33D" opacity="0.28">
     <path d="M440 420 L300 470 L470 470 Z"/>
     <path d="M560 420 L430 470 L600 470 Z"/>
   </g>
@@ -20,12 +20,12 @@
   <path d="M240 250 L284 250 L272 280 L252 280 Z" fill="#FF6B4A"/>
   <!-- libros -->
   <rect x="130" y="300" width="52" height="30" rx="4" fill="#7FD1AE"/>
-  <rect x="188" y="310" width="44" height="20" rx="4" fill="#FFC94D"/>
+  <rect x="188" y="310" width="44" height="20" rx="4" fill="#E8A33D"/>
   <!-- nino estudiando (silla + figura) -->
   <rect x="180" y="392" width="72" height="12" rx="5" fill="#C0703F"/>
   <rect x="186" y="404" width="10" height="66" fill="#C0703F"/>
   <rect x="238" y="404" width="10" height="66" fill="#C0703F"/>
-  <circle cx="216" cy="268" r="30" fill="#FFC94D"/>
+  <circle cx="216" cy="268" r="30" fill="#E8A33D"/>
   <rect x="197" y="296" width="38" height="96" rx="18" fill="#FF6B4A"/>
   <!-- planta -->
   <rect x="700" y="424" width="52" height="46" rx="7" fill="#C0703F"/>

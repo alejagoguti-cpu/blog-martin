@@ -4,6 +4,6 @@
     <path d="M80 130 L80 60 A27 27 0 0 1 134 60 L134 130" stroke="#0F2E24" stroke-width="12.5"/>
     <path d="M148 130 L148 92 A19 19 0 0 1 186 92 L186 130" stroke="#7FD1AE" stroke-width="10"/>
   </g>
-  <circle cx="107" cy="72" r="7.5" fill="#FFC94D"/>
+  <circle cx="107" cy="72" r="7.5" fill="#E8A33D"/>
   <path d="M22 148 Q68 136 110 148 T194 148" fill="none" stroke="#FF6B4A" stroke-width="10" stroke-linecap="round"/>
 </svg>

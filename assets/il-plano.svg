@@ -11,7 +11,7 @@
     <path d="M400 300 H650"/>
   </g>
   <!-- puertas -->
-  <g stroke="#FFC94D" stroke-width="6" fill="none" stroke-linecap="round">
+  <g stroke="#E8A33D" stroke-width="6" fill="none" stroke-linecap="round">
     <path d="M256 300 A44 44 0 0 1 300 344"/>
     <path d="M470 300 A44 44 0 0 1 514 344"/>
     <path d="M400 200 A40 40 0 0 1 440 240"/>
@@ -21,6 +21,6 @@
     <path d="M150 500 H650"/><path d="M150 490 V510"/><path d="M650 490 V510"/>
     <path d="M100 140 V460"/><path d="M90 140 H110"/><path d="M90 460 H110"/>
   </g>
-  <circle cx="700" cy="100" r="26" fill="none" stroke="#FFC94D" stroke-width="5"/>
-  <path d="M700 82 L706 100 L700 118 L694 100 Z" fill="#FFC94D"/>
+  <circle cx="700" cy="100" r="26" fill="none" stroke="#E8A33D" stroke-width="5"/>
+  <path d="M700 82 L706 100 L700 118 L694 100 Z" fill="#E8A33D"/>
 </svg>
