@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#0F2E24"/>
+  <g stroke="#1E4A3B" stroke-width="1.5">
+    <path d="M0 60 H800 M0 120 H800 M0 180 H800 M0 240 H800 M0 300 H800 M0 360 H800 M0 420 H800 M0 480 H800 M0 540 H800"/>
+    <path d="M60 0 V600 M120 0 V600 M180 0 V600 M240 0 V600 M300 0 V600 M360 0 V600 M420 0 V600 M480 0 V600 M540 0 V600 M600 0 V600 M660 0 V600 M720 0 V600"/>
+  </g>
+  <!-- planta -->
+  <g fill="none" stroke="#7FD1AE" stroke-width="7" stroke-linejoin="round">
+    <rect x="150" y="140" width="500" height="320" rx="6"/>
+    <path d="M150 300 H400 M400 140 V460"/>
+    <path d="M400 300 H650"/>
+  </g>
+  <!-- puertas -->
+  <g stroke="#FFC94D" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M256 300 A44 44 0 0 1 300 344"/>
+    <path d="M470 300 A44 44 0 0 1 514 344"/>
+    <path d="M400 200 A40 40 0 0 1 440 240"/>
+  </g>
+  <!-- cotas -->
+  <g stroke="#FF6B4A" stroke-width="4" stroke-linecap="round">
+    <path d="M150 500 H650"/><path d="M150 490 V510"/><path d="M650 490 V510"/>
+    <path d="M100 140 V460"/><path d="M90 140 H110"/><path d="M90 460 H110"/>
+  </g>
+  <circle cx="700" cy="100" r="26" fill="none" stroke="#FFC94D" stroke-width="5"/>
+  <path d="M700 82 L706 100 L700 118 L694 100 Z" fill="#FFC94D"/>
+</svg>
