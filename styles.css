@@ -730,3 +730,43 @@ td{font-weight:400}
   .mockups-grid{grid-template-columns:1fr}
   .mockup-sign{grid-column:auto}
 }
+
+
+/* Ajuste de la foto principal: queda más arriba dentro del hero */
+.hero-media{position:relative;transform:translateY(-42px)}
+.hero-media .hero-img{margin-bottom:0}
+
+/* Merch con apariencia de fotografía de producto */
+.merch-section{background:var(--arena)}
+.merch-photo-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:28px}
+.merch-photo{height:360px;position:relative;overflow:hidden;border-radius:22px;background:#ded6c7;box-shadow:0 18px 36px -22px rgba(18,51,42,.36);transition:transform .45s,box-shadow .45s}
+.merch-photo:hover{transform:translateY(-9px);box-shadow:0 28px 46px -22px rgba(18,51,42,.45)}
+.merch-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(18,51,42,.55),transparent 38%);pointer-events:none}
+.merch-photo h4{position:absolute;z-index:3;bottom:22px;left:24px;color:#fff;font-size:14px;font-weight:500;letter-spacing:.04em}
+.merch-shadow{position:absolute;width:70%;height:25px;left:15%;bottom:70px;border-radius:50%;background:rgba(18,51,42,.22);filter:blur(12px)}
+.merch-tote{background:linear-gradient(145deg,#e6ded0,#bdb5a5)}
+.merch-tote-bag{position:absolute;z-index:2;width:62%;height:235px;left:19%;top:67px;background:var(--arena);box-shadow:8px 16px 24px rgba(18,51,42,.18);display:flex;flex-direction:column;align-items:center;padding-top:60px;color:var(--bosque);transform:rotate(-5deg)}
+.merch-tote-bag:before{content:"";position:absolute;top:-38px;width:68px;height:60px;border:7px solid var(--arena);border-bottom:0;border-radius:40px 40px 0 0}
+.merch-tote-bag img{width:42px;height:36px;object-fit:contain;margin-bottom:12px}
+.merch-tote-bag b{font-size:25px;font-weight:500;letter-spacing:.18em;line-height:1}
+.merch-tote-bag span{font-size:6px;letter-spacing:.2em;text-transform:uppercase;margin-top:8px;padding-top:8px;border-top:1px solid var(--linea)}
+.merch-mug{background:linear-gradient(145deg,#c6d1c9,#8fa396)}
+.merch-mug-cup{position:absolute;z-index:2;top:98px;left:24%;width:52%;height:135px;border-radius:10px 10px 34px 34px;background:#fff;box-shadow:12px 18px 20px rgba(18,51,42,.2);display:flex;align-items:center;justify-content:center;color:var(--bosque)}
+.merch-mug-cup:after{content:"";position:absolute;right:-36px;top:28px;width:48px;height:62px;border:12px solid #fff;border-left:0;border-radius:0 32px 32px 0}
+.merch-mug-cup span{font-size:22px;letter-spacing:.16em;font-weight:500}
+.merch-pencil{position:absolute;z-index:3;width:8px;height:170px;background:var(--terra);left:68%;top:55px;transform:rotate(24deg);box-shadow:4px 8px 12px rgba(18,51,42,.2)}
+.merch-shirt{background:linear-gradient(145deg,#6f8b7d,#354f45)}
+.merch-shirt-shape{position:absolute;z-index:2;top:52px;left:17%;width:66%;height:245px;background:var(--bosque);clip-path:polygon(25% 0,40% 8%,60% 8%,75% 0,100% 20%,82% 39%,73% 27%,73% 100%,27% 100%,27% 27%,18% 39%,0 20%);display:flex;flex-direction:column;align-items:center;padding-top:88px;color:var(--arena)}
+.merch-shirt-shape img{width:46px;height:40px;object-fit:contain;margin-bottom:10px}
+.merch-shirt-shape span{font-size:7px;letter-spacing:.22em}
+.merch-cap{background:linear-gradient(145deg,#dfc9b7,#b7795b)}
+.merch-cap-shape{position:absolute;z-index:2;top:102px;left:19%;width:62%;height:125px;border-radius:110px 110px 25px 25px;background:var(--arena);box-shadow:10px 18px 18px rgba(18,51,42,.2);display:flex;align-items:center;justify-content:center;color:var(--bosque);font-size:25px;font-weight:500;letter-spacing:.14em}
+.merch-cap-shape:after{content:"";position:absolute;bottom:-24px;left:34%;width:72%;height:37px;border-radius:0 70% 70% 0;background:#e9e0d3;transform:skewX(-25deg);box-shadow:6px 8px 10px rgba(18,51,42,.15)}
+@media (max-width:1000px){
+  .hero-media{transform:none}
+  .merch-photo-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:600px){
+  .merch-photo-grid{grid-template-columns:1fr}
+  .merch-photo{height:330px}
+}
