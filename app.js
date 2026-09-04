@@ -36,7 +36,7 @@ const co = new IntersectionObserver((entries) => {
 document.querySelectorAll('[data-count]').forEach(el => co.observe(el));
 
 /* Enlace activo del menú */
-const ids = ['negocio','diferencia','mvv','marca','proceso','equipo'];
+const ids = ['negocio','diferencia','ninos','mvv','marca','proceso','equipo'];
 const links = Array.from(nav?.querySelectorAll('a') || []);
 const no = new IntersectionObserver((entries) => {
   entries.forEach(e => {

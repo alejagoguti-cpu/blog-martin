@@ -303,3 +303,18 @@ footer a:hover{color:var(--sol)}
   .shout,.cta,.brandbox{padding:36px 26px}
 }
 @media (prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;transition-duration:.001ms!important}}
+
+/* ---------- SECCIÓN NIÑOS ---------- */
+.kids-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:52px}
+.kid-c{background:#fff;border-radius:var(--r-l);padding:36px;display:flex;gap:22px;align-items:flex-start;border:1px solid var(--linea);transition:transform .35s,box-shadow .35s}
+.kid-c:hover{transform:translateY(-7px);box-shadow:var(--sh)}
+.kid-ico{width:62px;height:62px;border-radius:20px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.kid-ico svg{width:29px;height:29px}
+.kid-c h4{margin-bottom:8px}
+.kid-c p{margin:0;color:var(--gris);font-size:15px}
+.age-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:46px;justify-content:center}
+.age{background:#fff;border:2px solid var(--linea);border-radius:var(--r-l);padding:26px 28px;text-align:center;flex:1;min-width:180px;transition:border-color .3s,transform .3s}
+.age:hover{border-color:var(--coral);transform:translateY(-5px)}
+.age b{display:block;font-family:'Fraunces',serif;font-size:24px;color:var(--coral);margin-bottom:8px}
+.age span{font-size:14px;color:var(--gris);display:block;line-height:1.55}
+@media (max-width:1000px){.kids-grid{grid-template-columns:1fr}.kid-c{flex-direction:column;gap:16px}}
