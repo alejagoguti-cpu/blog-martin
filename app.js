@@ -16,7 +16,7 @@ const io = new IntersectionObserver((entries) => {
     if (e.isIntersecting) { e.target.classList.add('on'); io.unobserve(e.target); }
   });
 }, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
-document.querySelectorAll('.rv, .rv-s').forEach(el => io.observe(el));
+document.querySelectorAll('.rv, .rv-s, .figrow, .stats').forEach(el => io.observe(el));
 
 /* Contadores animados */
 function countUp(el, target) {
@@ -36,7 +36,7 @@ const co = new IntersectionObserver((entries) => {
 document.querySelectorAll('[data-count]').forEach(el => co.observe(el));
 
 /* Enlace activo del menú */
-const ids = ['negocio','diferencia','ninos','mvv','marca','proceso','equipo'];
+const ids = ['negocio','diferencia','ninos','mvv','proceso','equipo'];
 const links = Array.from(nav?.querySelectorAll('a') || []);
 const no = new IntersectionObserver((entries) => {
   entries.forEach(e => {
