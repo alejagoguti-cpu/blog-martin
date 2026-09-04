@@ -612,3 +612,57 @@ td{font-weight:400}
   .hero-img{border-radius:28px}
   .head{margin-bottom:42px}
 }
+
+/* ==========================================================
+   IDENTIDAD DE MARCA (estilo tarjeta)
+   ========================================================== */
+.logo-hero{
+  background:var(--bosque);border-radius:26px;padding:70px 40px;
+  display:flex;align-items:center;justify-content:center;gap:44px;flex-wrap:wrap;
+  box-shadow:0 22px 50px -26px rgba(18,51,42,.5);
+}
+.logo-hero img{width:150px;height:128px;object-fit:contain}
+.logo-hero .txt .n{font-size:44px;font-weight:600;letter-spacing:.28em;color:var(--arena);line-height:1}
+.logo-hero .txt .s{
+  font-size:10.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--durazno);
+  margin-top:14px;padding-top:14px;border-top:1px solid rgba(247,243,234,.25);display:inline-block;
+}
+
+/* razones del logo */
+.why{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:34px}
+.why-c{background:#fff;border-radius:20px;padding:32px 30px;box-shadow:0 14px 34px -22px rgba(18,51,42,.28)}
+.why-c .n{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:36px;height:36px;border-radius:50%;background:var(--durazno-cl);
+  color:var(--terra);font-size:12px;font-weight:700;margin-bottom:18px;
+}
+.why-c h4{font-size:18px;margin-bottom:9px}
+.why-c p{font-size:15px;color:#5E6F67;margin:0;line-height:1.72}
+
+/* muestras de color */
+.pal{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;margin-top:34px}
+.pal-c{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 14px 34px -22px rgba(18,51,42,.28);transition:transform .4s}
+.pal-c:hover{transform:translateY(-7px)}
+.pal-chip{height:130px;display:flex;align-items:flex-end;padding:16px}
+.pal-chip code{
+  background:rgba(255,255,255,.9);border-radius:100px;padding:5px 13px;
+  font-size:10.5px;font-weight:700;letter-spacing:.1em;color:#2C3D35;font-family:inherit;
+}
+.pal-b{padding:22px 22px 26px}
+.pal-b b{display:block;font-size:16px;font-weight:650;color:var(--bosque);margin-bottom:8px}
+.pal-b p{font-size:14px;color:#5E6F67;margin:0;line-height:1.7}
+
+/* tipografía */
+.typo{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:34px}
+.typo-c{background:#fff;border-radius:20px;padding:34px 30px;box-shadow:0 14px 34px -22px rgba(18,51,42,.28)}
+.typo-c .sample{font-size:64px;line-height:1;color:var(--bosque);margin-bottom:20px}
+.typo-c .sample.w2{font-weight:700}
+.typo-c .sample.w1{font-weight:400}
+.typo-c b{display:block;font-size:15px;font-weight:650;margin-bottom:7px;color:var(--bosque)}
+.typo-c p{font-size:14px;color:#5E6F67;margin:0;line-height:1.7}
+
+@media (max-width:1000px){
+  .why,.typo{grid-template-columns:1fr}
+  .logo-hero{padding:44px 26px;gap:26px}
+  .logo-hero .txt .n{font-size:34px}
+}
