@@ -666,3 +666,9 @@ td{font-weight:400}
   .logo-hero{padding:44px 26px;gap:26px}
   .logo-hero .txt .n{font-size:34px}
 }
+/* Íconos pequeños de las tarjetas flotantes del hero */
+.float-card svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+}
